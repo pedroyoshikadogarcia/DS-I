@@ -11,10 +11,9 @@ namespace Calculadora
     {
         public double n1;
         public double n2;
-        public double somatoria;
         public void somar()
         {
-            Console.WriteLine(n1+n2);
+            Console.WriteLine("soma = "+ (n1+n2));
         }
        public static void Main(string[] args)
         {
@@ -22,8 +21,6 @@ namespace Calculadora
 
             c1.n1 = 2;
             c1.n2 = 3;
-            c1.somar();
-
             Console.WriteLine(c1.n1);
             Console.WriteLine(c1.n2);
             c1.somar();
